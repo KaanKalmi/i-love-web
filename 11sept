@@ -1,0 +1,27 @@
+# Creative Coding with SvelteKit - Joost // Justus
+
+## Progressive Enhancement
+Development strategie van Content first, iedereen kan e website gebruiken en mensen met betere internet en browsers etc krijgen een enhanced versie van de website bvb met animaties of interactiviteit.
+
+## Creative coding with CSS
+- Scroll-snap-type: x-mandatory; Maakt scroll snap op de X-axis mandatory oftewel verplicht.
+- Dit is een non-breaking enhancement, als iemand een niet ondersteunde browser heft hiervoor an hij/zij nogsteeds even goed scrollen alleen heft et niet de scroll snap.
+- Een breaking enhancement is dus een enhancement dat wanneer iemand geen ondersteuning heft voor en css techniek dan breekt heel de css bestand voor diegene.
+- @support Maakt dus een breaking enhancement een non-breaking enhancement, want als het niet ondersteund word haalt hij gewoon de css code weg.
+- Kijk vooral in de docs van SvelteKit omdat niet alles hetzelfde werkt in SvelteKit als vanilla CSS!
+
+## Creative coding with JS
+- Dit is wat t meest verandert in sveltekit
+- Als je wat interatief wilt maken heb je JS nodig
+- Kijk vooral in de docs van SvelteKit omdat niet alles hetzelfde werkt in SvelteKit als vanilla JS!
+- document bestaat niet in sveltekit (in de server) hiervoor gebruik je de `onMount` functie in de client
+- Of je zet het in de static folder (hierdoor gebruiken alle paginas de script tho)
+- met onMount kan je JS maken zoals je gewend bent
+- Je kan transities en animaties importeren van sveltekit modules, zo hoef je het zelf niet te coderen. 
+- Je kan het dus als een soort class erbij zetten en extra info geven zoals hier aangegeve `<fieldset transition:fade={{duration: 250ms }}>`
+
+### Handy take aways from this talk:
+- Creative coding === Progressive Enhancement === Content First
+- HTML Supremacy :joy:
+- Doe de tutorial van SvelteKit!
+-`csr = false` doet Client Side Rendering uit (dus JS staat uit)
