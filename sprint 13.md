@@ -107,7 +107,6 @@ Over leuke dingen die vasilis heeft gemaakt op het web bvb toen `position:sticky
 Hij sprak voornamelijk over de tijd aangeven op websites met bvb afbeeldingen of andere onorthodoxe manieren
 
 ## Code/Design review 13/09
-
 - Je levert bewijslast in via je learning journal, als je je learning journal goed bijhoud en bereid een portfolio voor op je portflow.
 - Feedback geven/krijgen kan je kwijt onder samenwerken.
 - S3 niveau is het maken van complexe gebruiks-vriendelijke interactieve toepassingen dmv tools en frameworks
@@ -133,6 +132,7 @@ Hij sprak voornamelijk over de tijd aangeven op websites met bvb afbeeldingen of
 - [SvelteKit Docs - onMount](https://svelte.dev/docs/svelte#onmount)
 - [SvelteKit Blog - Unlocking view transitions](https://svelte.dev/blog/view-transitions)
 - [SvelteKit Docs - How to use view transition API in sveltekit](https://kit.svelte.dev/docs/faq#how-do-i-use-the-view-transitions-api-with-sveltekit)
+- [SvelteKit Docs - Logic Blocks](https://svelte.dev/docs/logic-blocks)
 
 ## Video's I've watched:
 - [Fireship - Sveltekit in 100 seconds](https://www.youtube.com/watch?v=H1eEFfAkIik)
