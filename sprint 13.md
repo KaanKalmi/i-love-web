@@ -96,17 +96,24 @@ Development strategie van Content first, iedereen kan e website gebruiken en men
 -`csr = false` doet Client Side Rendering uit (dus JS staat uit)
 
 ## We<3Web - Vasilis van Gemert
-
 ### Achtergrond informatie over Vasilis
 - Hij vind het web te gek
 - Opleiding: Kunstenaar
 - lovenonsense.com
 - vasilis.nl
-  
 ### Waar gaaat de talk over?
 Over leuke dingen die vasilis heeft gemaakt op het web bvb toen `position:sticky;` nieuw was had hij het gebruikt op zijn eigen website.
 
 Hij sprak voornamelijk over de tijd aangeven op websites met bvb afbeeldingen of andere onorthodoxe manieren
+
+## Code/Design review 13/09
+
+- Je levert bewijslast in via je learning journal, als je je learning journal goed bijhoud en bereid een portfolio voor op je portflow.
+- Feedback geven/krijgen kan je kwijt onder samenwerken.
+- S3 niveau is het maken van complexe gebruiks-vriendelijke interactieve toepassingen dmv tools en frameworks
+- Volgende week vrijdag moet je ervoor zorgen dat je semester 3 niveau goed in je hoofd hebt (niveau matrix)
+- Groepjes van 3 feedback geven bij elkaar
+- [Bron uit presentatie](https://vercel.com/docs/beginner-sveltekit/working-with-components)
 
 ## Articles I've read:
 - [SvelteKit REPL MediaQuery](https://svelte.dev/repl/26eb44932920421da01e2e21539494cd?version=4.2.19)
