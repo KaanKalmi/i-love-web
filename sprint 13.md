@@ -114,6 +114,29 @@ Hij sprak voornamelijk over de tijd aangeven op websites met bvb afbeeldingen of
 - Groepjes van 3 feedback geven bij elkaar
 - [Bron uit presentatie](https://vercel.com/docs/beginner-sveltekit/working-with-components)
 
+## Project management Samenwerken & prioriteren 16/09 Justus
+### Epic > Stories > Tasks
+Het idee is om werk op te splitsen in opleverbare stukken zodar grote projecten kunnen worden afgerond en klatne nop regelmatige basis waarde krijgen. Epics helpen teams werk op te splitsen terwijl ze naar een groter doel teowerken.
+
+Epics zijn dus grote stukken werk die kunnen worden opgesplitst in kleinere taken die vervolgens in sprints kunnen worden voltooid dit helpt teams om gefocust te blijven en om regelmatig werk op te leveren.
+
+**Epic:**
+- Een nieuwe e-commerce website lanceren voor ...
+
+**Story:**
+- Een winkelmandje toevoegen
+- User stories zijn iets gerichten dan een story, dit schrijf je dan in een perspectief van een gebruiker die een bepaalde taak wilt doen op de website met een doel.
+
+**Task:**
+- Overzicht winkelmandje tonen in HTML, Producten toevoegen, Producten verwijderen, Aantal producten aanpassen
+- Een component van de user story
+
+### Planning Poker voor tijds inschatting
+- Consensus-gebaseerde techniek voor schatten, vooral gebruikt voor timeboxing in agile principes. 
+
+### Prioriteren
+- MoSCoW methode
+
 ## Articles I've read:
 - [SvelteKit REPL MediaQuery](https://svelte.dev/repl/26eb44932920421da01e2e21539494cd?version=4.2.19)
 - [SvelteKit Docs - Introduction](https://kit.svelte.dev/docs/introduction)
