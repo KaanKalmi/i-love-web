@@ -137,6 +137,43 @@ Epics zijn dus grote stukken werk die kunnen worden opgesplitst in kleinere take
 ### Prioriteren
 - MoSCoW methode
 
+## Wrap up sprint 13 18/9
+
+### Hoe doen we een wrap up?
+- Readme finishen
+- Laatste puntjes op de i zetten at betreft t project
+- Live zetten van het project (of .zip als de opdrachtgever het wilt)
+- Structureerde code//refactor (semantiek, tabs, comments, gebruik van nesting, whitespace)
+
+### Refactored code:
+- Conventies
+- semantiek
+- geen commented code
+- geen console.log
+- goede tabs
+
+### Wat komt er in een readme:
+- CMS uitleg
+- Installatiehandleiding
+- kenmerken
+- Live link
+- Instructies
+- Bronnen
+- Huisstijl
+- Screenshots
+
+### Hoe lever je een project op?
+
+Refactored Code: gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs.
+ 
+Readme.md: Kenmerken, live link, screenshot(s?), Instructies (uitleg over het gebruik), Installatiehandleiding, CMS Uitleg, Huisstijl (of waar die te vinden is), bijdragen? (hints voor volgene dev-teams), gebruikte bronnen, badges met gebruikte technologie,
+ 
+Live zetten: Github pages, Vercel, Netlify, onrender
+ 
+### Project kiezen (top 3 aangeven)
+- Je moet jezelf inlezen bij de 14 opdrachtgevers en een top 3 kiezen
+- Kijk op FDND Agency jaar 2 projecten, lees hierbij alle 14 projecten
+
 ## Articles I've read:
 - [SvelteKit REPL MediaQuery](https://svelte.dev/repl/26eb44932920421da01e2e21539494cd?version=4.2.19)
 - [SvelteKit Docs - Introduction](https://kit.svelte.dev/docs/introduction)
