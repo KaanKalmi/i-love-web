@@ -1,24 +1,50 @@
-## 1. Methodisch handelen	
-- 3.1.1 Richt in overleg projecten in volgens de development-lifecycle.	
-- 3.1.2 Combineert onderbouwd principes, standaarden en best-practices op het gebied van frontend design en development om een oplossing voor een opdrachtgever te realiseren.
-- 3.1.3 Houdt rekening met belangen van eindgebruikers, valideert door middel van testen en verwerkt testresultaten.	
+## Methodisch handelen	
+1. Richt in overleg projecten in volgens de development-lifecycle.
+   - Je moet alles zelf kunnen inrichten mbt. DLC je moet dus bvb een projectboard opstellen waarin je het project inricht van meest belangrijk naar minst belangrijk.
 
-## 2. Samenwerken	
-- 3.2.1 Organiseert samenwerking en signaleert verbeterpunten op gebied van efficiëntie en effectiviteit.	
-- 3.2.2 Draagt verantwoording voor eigen resultaten, benoemt teamresultaten en informeert belanghebbenden over de voortgang.
-- 3.2.3 Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.
+2. Combineert onderbouwd principes, standaarden en best-practices op het gebied van frontend design en development om een oplossing voor een opdrachtgever te realiseren.
+   - Zelfde als in semester 2 alleen nu gebruik je dus ook best practices.
 
-## 3. Communiceren	
-- 3.3.1 Luistert, vat samen, verifieert en vraagt door tot een boodschap helder is.	
-- 3.3.2 Kan ontwerpkeuzes, eigen ideeën en producten overtuigend overbrengen aan belanghebbenden.	
-- 3.3.3 Documenteert op professionele wijze en bespreekt voortgang binnen het team.	
+3. Houdt rekening met belangen van eindgebruikers, valideert door middel van testen en verwerkt testresultaten.	
+   - Je houdt nu rekening met je eindgebruikers en doet vaker user tests voor feedback op je project. Hierna kan je dus de feedback verwerken voor het eindproduct.
 
-## 4. Probleemoplossend vermogen	
-- 3.4.1 Analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting.	
-- 3.4.2 Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken.	
-- 3.4.3 Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks.	
+## Samenwerken	
+1. Organiseert samenwerking en signaleert verbeterpunten op gebied van efficiëntie en effectiviteit.	
+   - Na het invullen van de teamcanvas kan je bepaalde regels opstellen met het projectgroep ivm. hoe de samenwerking gaat denk aan: issues, discussions, stand ups etc.
 
-## 5. Lerend vermogen
-- 3.5.1 Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling.
-- 3.5.2 Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen.
-- 3.5.3 Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar.
+2. Draagt verantwoording voor eigen resultaten, benoemt teamresultaten en informeert belanghebbenden over de voortgang.
+   - Kan niet alleen zijn eigen verantwoordelijkheid nakomen, maar ook die van teamgenoten dmv. issues, ook kan je signaleren wanneer een teamgenoot achterloopt.
+
+3. Kan omgaan met diversiteit binnen teams en handelt respectvol naar anderen.
+   - Kan bvb de teamcanvas toepassen om diversiteit in kaart te brengen in de vaardigheden binnen het team en hierop respectvolle wijze handelen door bvb de taken aan de hand hiervan te verdelen.
+
+## Communiceren	
+1. Luistert, vat samen, verifieert en vraagt door tot een boodschap helder is.	
+   - Je moet tijdens bvb een briefing een samenvatting maken waarin de boodschap helder is (zodat er geen vragen later gesteld worden in week 2 bijvoorbeeld, of zodat het project niet verkeerd begrepen word).
+
+2. Kan ontwerpkeuzes, eigen ideeën en producten overtuigend overbrengen aan belanghebbenden.	
+   - Je kan aanduiden waarom jij hebt gekozen voor bepaalde keuzes binnen het ontwerp en waarom jij het beter vond dan bvb de gegeven ontwerp.
+
+3. Documenteert op professionele wijze en bespreekt voortgang binnen het team.	
+   - Documentatie niet meer via wiki maar via commits, issues, projectboard items etc.
+
+## Probleemoplossend vermogen	
+1. Analyseert een vraag, signaleert knelpunten en kiest onderbouwd een oplossingsrichting.	
+   - Tijdens de briefing analyseer je de vraag van de klant/opdrachtgever en stel je vragen tot de team de opdracht goed begrijpt, vervolgens kan je bij je opdrachtgever tijdens het opsturen van de debriefing eventuele knelpunten aanduiden
+en ook de gekozen oplosrichting goed onderbouwen.
+
+2. Schetst om gedachten en processen te verkennen, abstracte begrippen over te brengen en de oplossingsrichting inzichtelijk te maken.	
+   - Je kan je gedachten en evt. processen schetsen waarmee je vervolgens je oplosrichting duidelijk en inzichtelijk kan overbrengen aan anderen.
+
+3. Bedenkt en implementeert complexe frontend code en gebruikt daarbij tools en frameworks.	
+   - Je kan complexe code zelf bedenken en implementeren met gebruik van tools en frameworks zoals sveltekit, tailwind etc.
+
+## Lerend vermogen
+1. Volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling.
+   - Je kan aanduiden via de learning journal dat je internationale ontwikkelingen volgt, leert en kan gebruiken (evt. met begeleiding).
+
+2. Maakt aangeboden en zelf gevonden materie eigen, gebruikt dit bij leertaken, deelt ervaring binnen de tribe en leert van anderen.
+   - Je hebt nieuwe geleerde technieken onder de knie en kan dit delen vinnen de tribe.
+
+3. Kent eigen capaciteiten en beperkingen, waardeert het vermogen van anderen en maakt dit bespreekbaar.
+   - je kan je eigen capaciteiten en beperkingen aanduiden bij je project genoten waardoor je tijdens een team canvas sessie een rol kan kiezen/krijgen dat past in je Zone of Proximal Development.
