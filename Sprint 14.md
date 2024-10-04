@@ -96,3 +96,22 @@ Coach gesprek heb je met je squad leader op ma/wo/vr en neemt je retrospect als 
 ### Components
 - Bij componenten in de lib moet je ze aanmaken zonder de + maar wel met een hoofdletter dus bvb Header.svelte, dit is een conventie van sveltekit
 - In index.js zet je niks anders dan exports van componenten etc.
+
+## We Love Web met Nicolas Garnier
+### achtergrond info:
+- Started dev in 2012
+- freelancer in 2018
+- [website](https://nico.computer/)
+
+### Waar hij over sprak:
+Wat is een creative dev nu? Het is een fancy term voor een developer die creatief is...
+
+Je kan dus tools en frameworks creatief gebruiken voor het bedenken van een oplossing voor je opdrachtgever.
+
+Important factors for creative coding:
+- Anticipation and suprise
+- Set the mood and support the narrative
+- Engage the user
+- Solve design and technical challenges
+- Listen to the client and what they want, not everyone wants a site filled with animations.
+- Look at the clients website and try to design animations that fit the design choices they made.
