@@ -115,3 +115,10 @@ Important factors for creative coding:
 - Solve design and technical challenges
 - Listen to the client and what they want, not everyone wants a site filled with animations.
 - Look at the clients website and try to design animations that fit the design choices they made.
+
+## 07/10/2024
+### Woordenlijst
+- Minimum viable product: Alle Must haves zjin geimplementeerd in het product.
+- Optimum viable product: Alle Must, Should haves en Could haves zijn geimplementeerd in het product.
+- Velocity: hoeveelheid poker planning punten waar je doorheen gaat in een sprint
+
