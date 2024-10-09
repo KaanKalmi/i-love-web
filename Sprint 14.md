@@ -122,3 +122,32 @@ Important factors for creative coding:
 - Optimum viable product: Alle Must, Should haves en Could haves zijn geimplementeerd in het product.
 - Velocity: hoeveelheid poker planning punten waar je doorheen gaat in een sprint
 
+## yadayada
+
+### Oplevering
+- Refactored code
+    - Componenten
+    - Pull requests en branches
+    - code conventies
+    - no commented code
+    - no console.logs
+- Readme
+    - Kenmerken
+    - Live link
+    - screenshots
+    - instructie
+    - installatie handeling
+    - CMS uitleg
+    - Huisstijl en andere bijdragen
+    - link naar projectboard
+    - Gebruikte techstack
+    - Changelog over alle aanpassingen in de sprint
+    - Releases erin zetten
+- Live zetten
+    - Live URL in de description zetten van t proejct
+- Testen en resultaten
+    - Performance, keyboard, screenreader, lighthouse etc
+- Klant
+    - Vraag hoe hun het project willen opleveren
+
+### Sprint review
