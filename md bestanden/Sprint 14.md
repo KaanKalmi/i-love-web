@@ -149,5 +149,4 @@ Important factors for creative coding:
     - Performance, keyboard, screenreader, lighthouse etc
 - Klant
     - Vraag hoe hun het project willen opleveren
-
-### Sprint review
+    - Vraag hoe hun het project willen opleveren
