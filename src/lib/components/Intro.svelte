@@ -60,20 +60,9 @@
             <div class="marquee-container">
                 <span> I </span>
                 <span> I </span>
-                I
                 <span> I </span>
                 <span> I </span>
-            </div>
-        </div>
-    </section>
-    <section class="loader-clip clip-bottom">
-        <div class="marquee">
-            <div class="marquee-container">
-                <span> WEB </span>
-                <span> WEB </span>
-                WEB
-                <span> WEB </span>
-                <span> WEB </span>
+                <span> I </span>
             </div>
         </div>
     </section>
@@ -88,12 +77,23 @@
             </div>
         </div>
     </section>
+    <section class="loader-clip clip-bottom">
+        <div class="marquee">
+            <div class="marquee-container">
+                <span> WEB </span>
+                <span> WEB </span>
+                <span> WEB </span>
+                <span> WEB </span>
+                <span> WEB </span>
+            </div>
+        </div>
+    </section>
 </header>
 
 <style>
     .loader{
         width: 100vw;
-        height: 105vh;
+        height: 100vh;
 
         & .loader-clip{
             position: absolute;
@@ -128,8 +128,8 @@
             top: 200%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 200vw;
-            font-size: 16vw;
+            width: 150vw;
+            font-size: 12vw;
 
             & .marquee-container{
                 width: 100%;
