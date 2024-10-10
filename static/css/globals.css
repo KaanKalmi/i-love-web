@@ -2,14 +2,15 @@
 
 :root {
     --text-color: #E0E1DD;
-    --bg-color: #0D1B2A;
-    --bg2-color: #1B263B;
+    --bg-color: #020f1d;
+    --bg-light-color: #1B263B;
+    --bg-dark-color: #0D1B2A;
     --prim-color: #778DA9;
 }
 
 body {
     margin: 0;
-    background: linear-gradient(25deg, var(--bg-color), var(--bg2-color));
+    background: var(--bg-light-color);
     color: var(--text-color);
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
