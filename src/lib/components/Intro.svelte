@@ -91,53 +91,53 @@
 </header>
 
 <style>
-     .loader{
+    .loader{
         width: 100vw;
         height: 105vh;
-    }
 
-     .loader-clip{
-        position: absolute;
-        width: 100vw;
-        height: 33vh;
-        overflow: clip;
-        z-index: 1000;
-    }
+        & .loader-clip{
+            position: absolute;
+            width: 100vw;
+            height: 33vh;
+            overflow: clip;
+            z-index: 1000;
+        }
+     
+        & .clip-top{
+            top: 0;
+            clip-path: inset(0 0 0 0);
+            background: var(--bg-anim-color);
+        }
 
-     .clip-top{
-        top: 0;
-        clip-path: inset(0 0 0 0);
-        background: var(--bg-anim-color);
-    }
+        & .clip-bottom{
+            bottom: 0;
+            clip-path: inset(0 0 0 0);
+            background: var(--bg-anim-color);
+        }
 
-    .clip-bottom{
-        bottom: 0;
-        clip-path: inset(0 0 0 0);
-        background: var(--bg-anim-color);
-    }
+        & .clip-center{
+            overflow: hidden;
+            position: relative;
+            width: 100vw;
+            height: 33vh;
+            top: 33vh;
+        }
 
-    .clip-center{
-        overflow: hidden;
-        position: relative;
-        width: 100vw;
-        height: 33vh;
-        top: 33vh;
-    }
+        & .marquee{
+            position: absolute;
+            top: 200%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 200vw;
+            font-size: 16vw;
 
-    .marquee{
-        position: absolute;
-        top: 200%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 200vw;
-        font-size: 16vw;
-    }
-
-    .marquee-container{
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-family: "roboto", sans-serif;
+            & .marquee-container{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-family: "roboto", sans-serif;
+            }
+        }
     }
 </style>
