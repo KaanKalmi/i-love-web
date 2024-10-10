@@ -10,13 +10,6 @@
             ease: 'power4.inOut',
         });
 
-        gsap.to('.marquee', {
-            duration: 3.5,
-            delay: 0.75,
-            top: '50%',
-            ease: 'power4.inOut',
-        });
-
         gsap.from('.clip-top .marquee, .clip-bottom .marquee', {
             duration: 5,
             delay: 1,
@@ -29,6 +22,13 @@
             delay: 1,
             left: `-50%`,
             ease: 'power3.inOut',
+        });
+
+        gsap.to('.marquee', {
+            duration: 3.5,
+            delay: 0.75,
+            top: '50%',
+            ease: 'power4.inOut',
         });
 
         gsap.to('.clip-top', {
