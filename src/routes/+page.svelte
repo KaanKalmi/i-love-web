@@ -6,6 +6,7 @@
 <Intro />
 
 <main>
+    <h1>Scroll Down</h1>
     <Cards />
 </main>
 
@@ -14,7 +15,7 @@
     /* Algemene styling */
     main {
         position: absolute;
-        top: 40vh;
+        top: 30vh;
         display: flex;
         flex-direction: column;
         align-items: center;

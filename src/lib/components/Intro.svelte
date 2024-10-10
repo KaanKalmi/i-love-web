@@ -54,7 +54,7 @@
     });
 </script>
 
-<div class="loader">
+<section class="loader">
     <div class="loader-clip clip-top">
         <div class="marquee">
             <div class="marquee-container">
@@ -80,15 +80,15 @@
     <div class="clip-center">
         <div class="marquee">
             <div class="marquee-container">
-                <span> LOVE </span>
-                <span> LOVE </span>
-                LOVE
-                <span> LOVE </span>
-                <span> LOVE </span>
+                <span> ❤️ </span>
+                <span> ❤️ </span>
+                ❤️
+                <span> ❤️ </span>
+                <span> ❤️ </span>
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <style>
      .loader{
@@ -99,7 +99,7 @@
      .loader-clip{
         position: absolute;
         width: 100vw;
-        height: 33.3vh;
+        height: 33vh;
         overflow: clip;
         z-index: 1000;
     }
@@ -107,21 +107,21 @@
      .clip-top{
         top: 0;
         clip-path: inset(0 0 0 0);
-        background: var(--bg-color);
+        background: var(--bg-anim-color);
     }
 
     .clip-bottom{
         bottom: 0;
         clip-path: inset(0 0 0 0);
-        background: var(--bg-color);
+        background: var(--bg-anim-color);
     }
 
     .clip-center{
         overflow: hidden;
         position: relative;
         width: 100vw;
-        height: 33.3vh;
-        top: 33.3vh;
+        height: 33vh;
+        top: 33vh;
     }
 
     .marquee{
@@ -130,18 +130,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
         width: 200vw;
-        mix-blend-mode: difference;
         font-size: 16vw;
     }
 
     .marquee-container{
         width: 100%;
-        padding-top: .2em;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         font-family: "roboto", sans-serif;
-        color: white;
     }
-
 </style>
