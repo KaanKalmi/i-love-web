@@ -61,8 +61,6 @@
                 <span> I </span>
                 <span> I </span>
                 <span> I </span>
-                <span> I </span>
-                <span> I </span>
             </div>
         </div>
     </section>
@@ -70,9 +68,7 @@
         <div class="marquee">
             <div class="marquee-container">
                 <span> ❤️ </span>
-                <span> ❤️ </span>
                 ❤️
-                <span> ❤️ </span>
                 <span> ❤️ </span>
             </div>
         </div>
@@ -80,8 +76,6 @@
     <section class="loader-clip clip-bottom">
         <div class="marquee">
             <div class="marquee-container">
-                <span> WEB </span>
-                <span> WEB </span>
                 <span> WEB </span>
                 <span> WEB </span>
                 <span> WEB </span>
@@ -106,13 +100,13 @@
         & .clip-top{
             top: 0;
             clip-path: inset(0 0 0 0);
-            background: var(--bg-anim-color);
+            background: var(--prim-color);
         }
 
         & .clip-bottom{
             bottom: 0;
             clip-path: inset(0 0 0 0);
-            background: var(--bg-anim-color);
+            background: var(--prim-color);
         }
 
         & .clip-center{
@@ -128,7 +122,7 @@
             top: 200%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 150vw;
+            width: 100vw;
             font-size: 12vw;
 
             & .marquee-container{
@@ -137,6 +131,7 @@
                 justify-content: space-around;
                 align-items: center;
                 font-family: "roboto", sans-serif;
+                font-weight: 900;
             }
         }
     }

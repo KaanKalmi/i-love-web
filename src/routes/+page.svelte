@@ -6,7 +6,7 @@
 <Intro />
 
 <main>
-    <h1>Scroll Down</h1>
+    <h1> Scroll Down</h1>
     <Cards />
 </main>
 
@@ -15,14 +15,14 @@
     /* Algemene styling */
     main {
         position: absolute;
-        top: 30vh;
+        top: 25vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        min-height: 100vh;
         width: 100%;
-        overflow: hidden;
+        overflow-y: auto;
         z-index: 1;
     }
 </style>
