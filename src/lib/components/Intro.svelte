@@ -54,8 +54,8 @@
     });
 </script>
 
-<section class="loader">
-    <div class="loader-clip clip-top">
+<header class="loader">
+    <section class="loader-clip clip-top">
         <div class="marquee">
             <div class="marquee-container">
                 <span> I </span>
@@ -65,8 +65,8 @@
                 <span> I </span>
             </div>
         </div>
-    </div>
-    <div class="loader-clip clip-bottom">
+    </section>
+    <section class="loader-clip clip-bottom">
         <div class="marquee">
             <div class="marquee-container">
                 <span> WEB </span>
@@ -76,8 +76,8 @@
                 <span> WEB </span>
             </div>
         </div>
-    </div>
-    <div class="clip-center">
+    </section>
+    <section class="clip-center">
         <div class="marquee">
             <div class="marquee-container">
                 <span> ❤️ </span>
@@ -87,13 +87,13 @@
                 <span> ❤️ </span>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</header>
 
 <style>
      .loader{
         width: 100vw;
-        height: 100vh;
+        height: 105vh;
     }
 
      .loader-clip{
