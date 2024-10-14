@@ -7,3 +7,11 @@ Waar ik tegen aan ben gelopen in S13 zijn dus complexere frontend codes zoals me
 
 # Vooruitgang S14
 In sprint 14 wil ik beginnen met complexere code implementeren in sveltekit (denk aan interactiviteit, mediaqueries en animaties). Ook wil ik kijken of ik evt. progressie kan maken in dynamische en statische routes (denk aan Fetch, POST, GET etc.).
+
+# Vooruitgang S15
+In sprint 15 wil ik kennis maken met een nieuwe techstack, die ik eventueel meeneem naar I Love Web, met als doel dat ik beter frameworks kan leren (De learning curve minder steil maken voor mezelf).
+
+# Indicatoren Midterms
+### Wel:
+
+### Niet:
