@@ -78,3 +78,8 @@ Houd dus rekening met: UX (User eXperience), DX (Developer eXperience) en CMX (C
 - GSAP (Library)
 - Vite (Tool)
 - Jamstack.org (Tools voor site generators kan je hier vinden)
+
+## Gekozen Techstack:
+- VueJS
+- Tailwind
+- Vite
