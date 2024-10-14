@@ -41,7 +41,7 @@ Je moet een technologie kiezen dat compatible is met de andere technologieën da
 
 dus als je frontend-framework kiest dat veel gebruik maakt van web-sockets, moet je backend framework ook web sockets support.
 
-4. **Performance en Cost**
+4. **Performance en Kosten**
 
 Je moet een techstack gebruiken die past bij je project, een applicatie dat maar 10 gebruikers per dag gebruikt
 
@@ -57,7 +57,7 @@ Naast scalability wordt er ook rekening gehouden met de expertise van teamgenote
 
 Astro lijkt erg veel op SvelteKit wat het leren van Astro makkelijker maakt en aangezien mijn teamgenoten ervaring hebben met SvelteKit is dit geen al te grote stap.
 
-5. **Future proof**
+5. **Future proofing**
 
 Zoek een techstack dat met een backwards compatability mogelijkheid, sterke achtergrond wat betreft constante updates etc.
 
@@ -65,9 +65,16 @@ Dit zorgt ervoor dat je in de toekomst niet ineens je hele stack moet veranderen
 
 of bijvoorbeeld wanneer er nieuwe ontwikkelingen komen.
 
+6. **Optional: Developer Experience**
+
+Kijk naar of de nieuwe framework fijn is voor developers om te gebruiken (Hetzelfde als UX maar dan voor Developers)
+
+Houd dus rekening met: UX (User eXperience), DX (Developer eXperience) en CMX (Content Management eXperience).
+
 ## Techstack keuzes:
 - VueJS (Framework)
-- NuxtJS (Framework)
+- Angular (Framework)
 - Tailwind (Library)
 - GSAP (Library)
 - Vite (Tool)
+- Jamstack.org (Tools voor site generators kan je hier vinden)
