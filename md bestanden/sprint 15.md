@@ -86,3 +86,14 @@ $$ > R&D > P > $$$
 
 **Root your decisions in user needs**
 
+## We love web met dion pieters
+
+Dion pieters komt ons vertellen over het maken en designen van onze portfolio.
+
+### Wat je jezelf moet afvragen
+- Heb ik nog een oud portfolio
+- Wie gaat mijn portfolio bekijken
+- Wat wil ik erop laten zien
+- waarvoor heb ik het nodig
+
+
