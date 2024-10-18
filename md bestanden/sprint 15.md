@@ -55,3 +55,34 @@ Vue, Angular en Next hebben ook werkgelegenheid.
 Na sprint 15 heb je weer gewoon projecten in sveltekit, FDND draait op sveltekit namelijk.
 
 Iedereen kiest een ander framework.
+
+## Kevin from Directus
+Directus is a backend//Headless CMS configuration, that's also how he describes it to others.
+
+Kevin's role at Directus is to lead the DX part of his team?
+
+Directus is partly an open source project, but it has a license in which you have to pay them money when you make over a certain amount etc.
+
+So in a sense you pay them for everything, but you self host, 
+### Trade offs:
+- Good and Cheap: slow
+- Good and Fast: Expensive
+- Fast and Cheap: Low quality
+- All 3 together is impossible
+
+They use this triangle also in directus
+### A business runs (in theory) really simple
+- You put in money to make a product that generates profit,
+- However you also need Innvoation (research and development), This field of your company also needs funding, you get some new products that either fail or work.
+- And with every successfull product you get even more revenue!
+- R&D also provides a better version on a product that already exists.
+**GRAPH**
+
+$$ > P > $$$
+
+$$ > R&D > P > $$$
+
+**You're going to make shitty decisions**
+
+**Root your decisions in user needs**
+
