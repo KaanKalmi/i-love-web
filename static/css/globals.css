@@ -7,6 +7,12 @@
     --sec-color: #931212;
 }
 
+*, *::before, *::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background: var(--bg-color);
@@ -14,6 +20,7 @@ body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     height: max-content;
+    scroll-behavior: smooth;
 }
 
 *::-webkit-scrollbar {

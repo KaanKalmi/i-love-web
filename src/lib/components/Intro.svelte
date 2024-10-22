@@ -45,7 +45,7 @@
             ease: 'power4.inOut',
         });
 
-        gsap.to('.clip-top .marquee , .clip-bottom .marquee, .clip-center .marquee span', {
+        gsap.to('.clip-top .marquee , .clip-bottom .marquee, .clip-center .marquee li', {
             duration: 1,
             delay: 6,
             opacity: 0,
@@ -57,29 +57,29 @@
 <header class="loader">
     <section class="loader-clip clip-top">
         <div class="marquee">
-            <div class="marquee-container">
-                <span> I </span>
-                <span> I </span>
-                <span> I </span>
-            </div>
+            <ul class="marquee-container">
+                <li> I </li>
+                <li> I </li>
+                <li> I </li>
+            </ul>
         </div>
     </section>
     <section class="clip-center">
         <div class="marquee">
-            <div class="marquee-container">
-                <span> ❤️ </span>
+            <ul class="marquee-container">
+                <li> ❤️ </li>
                 ❤️
-                <span> ❤️ </span>
-            </div>
+                <li> ❤️ </li>
+            </ul>
         </div>
     </section>
     <section class="loader-clip clip-bottom">
         <div class="marquee">
-            <div class="marquee-container">
-                <span> WEB </span>
-                <span> WEB </span>
-                <span> WEB </span>
-            </div>
+            <ul class="marquee-container">
+                <li> WEB </li>
+                <li> WEB </li>
+                <li> WEB </li>
+            </ul>
         </div>
     </section>
 </header>
@@ -87,7 +87,6 @@
 <style>
     .loader{
         width: 100vw;
-        height: 100vh;
 
         & .loader-clip{
             position: absolute;
@@ -132,6 +131,7 @@
                 align-items: center;
                 font-family: "roboto", sans-serif;
                 font-weight: 900;
+                list-style: none;
             }
         }
     }
