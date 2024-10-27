@@ -33,6 +33,7 @@
 - [SvelteKit Blog - Unlocking view transitions](https://svelte.dev/blog/view-transitions)
 - [SvelteKit Docs - How to use view transition API in sveltekit](https://kit.svelte.dev/docs/faq#how-do-i-use-the-view-transitions-api-with-sveltekit)
 - [SvelteKit Docs - Logic Blocks](https://svelte.dev/docs/logic-blocks)
+- [Light- en Dark mode - CSSTricjs](https://css-tricks.com/come-to-the-light-dark-side/)
 
 ## Video's die ik heb gekeken:
 - [Fireship - Sveltekit in 100 seconds](https://www.youtube.com/watch?v=H1eEFfAkIik)
