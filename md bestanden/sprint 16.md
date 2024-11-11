@@ -16,3 +16,9 @@ De focus ligt op 't ontwerpen en bouwen van een robuust, goed werkend component,
 analyseer je website en identificeer componenten
 
 ### Maak een morphological chart en breakdown
+Maak een chart op een A3 (mag ook digitaal) om een analyse te maken van je component e zijn onderdelen
+
+Het is een soort chart waarin je de eisen op een rij zet en dus opties erbij zet
+
+Je moet minstens 8 variaties voor je component maken en werk drna de verschillende versies uit in figma. 
+ 
