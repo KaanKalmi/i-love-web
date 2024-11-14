@@ -180,9 +180,57 @@ Screen readers: JAWS, NVDA, VoiceOver, Talkback
 Performance: Ability to perform
 
 Refer to WCAG 2.2 Understanding Docs. (I lost track)
- 
-# Performance mistakes - Paul Calvano
 
+> Q: What happens to the accessibility tree if the DOM gets loaded slower? A: It depends on the OS, device, browser etc. Most of the time it won't announce anything it will just create a buffer. So the response gets bufferd. 
+
+# Performance mistakes - Paul Calvano
+> This is one of the important talks for me as a student (stuff i can implement in my code), added later: Why this guy constantly out of breath tho... 
+All of the data in this talk is from [HTTPArchive](httparchive.org)
+
+### The 17 common mistakes
+1. Not adding Lazy loading on LCP images
+    - Won't load the images if it isn't on the viewport
+    - [MDN Lazy loading](https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading)
+    - Slows down Largest Contentful Paint
+    - Lighthouse tells you when the LCP is lazy loaded
+    - 4% of the sites in the HTTP Archive failed the audit 
+    - Don't lazy load with fetch prioirty on high, that's like saying oh hey, don't load this but when you do load it fast!
+2. Lazy loading high priority images
+3. Async decoding on high priority images
+4. preconnecting needs to have crossorigin attribute as well.
+    - Out of the 9M preconnects, 4.6M missed a crossorigin attribute!
+5. Preloading 
+    - After preloading too much, preloading will delay other high priority resources!
+    - 2.4M sites are using preloading, and around 140K are preloading multiple images, 48K are preloading more than 1MB of data, 34K preloading more than 20 requests and 1.2K preloading video's
+6. Preloading excessive bytes
+7. Don't preload video's
+8. Unused preloads
+    - This makes the browser preload unused data, which slows down your website.
+    - Almost half the sites are using preload with unused data
+9. You have to use the `as` attribute when preloading
+    - Don't preload different variations of your font!
+    - 37K websites are missing preload type
+10. Preloading different variations of the same font 
+11. Don't preload and swap display on your fonts
+    - Only use 1 of the 2!
+12. not content-encoding big content (No gzip or brotli compression)
+    - Content-encoding just compresses your content
+    - Brotli is a good compression tool, but gzip is supported by every broswer as of 2024.
+    - [His compression testing tool](https://tools.paulcalvano.com/compression-tester)
+13. Inadequate compression levels
+    - The higher the compression level, the more time it takes to compress
+    - NGINX (idk what it is but ill check it out)
+14. Third parties not compressing 
+    - [Third party testing](https://paulcalvano.com/2024-09-03-discovering-third-party-performance-risks/)
+    - 4.6K third party domains are serving uncompressed content to users
+15. Resize images to webp or avif (Image optimization)
+    - sites load images from S3 instead of a CDN (doesn't optimize your images)
+16. Gzip compressing images
+
+- Create a hypothesis "This feature will imrpove [metric]"
+- Test the feature in dev tools or something
+- validate it using RUM or A/B testing
+- Monitor it using RUM, performance budget and/or synthetic measurements
 
 # Thinking beyond core web vitals - Anna Migas
 
