@@ -232,10 +232,41 @@ All of the data in this talk is from [HTTPArchive](httparchive.org)
 - validate it using RUM or A/B testing
 - Monitor it using RUM, performance budget and/or synthetic measurements
 
+
 # Thinking beyond core web vitals - Anna Migas
+Most web performance metrics and resources are developed for the privileged user in mind
 
+For some users, the good web performance is not achievable at all.
 
-# Third party woes - Jason Grigsby
+> At a high level, there are two primary performance bottle necks on the web: networking and End-user device compute.
 
+**Networking:**
+- Latency
+    - Latency is in most african parts really high
+        - High latency means a high TTFB
 
-# Reckoning: Frontend's lost decade - Alex Russell
+**End-user device compute:**
+- Nigeria is considered a mobile-first market
+- The skipped wide-ranging desktop PC adoption.
+- They use inexpensive smartphones instead of expensive models (like iPhones)
+
+> Time spent parsing and compiling is 2-5x longer on phones than desktop ~ Someone 
+
+1. Visibility of system status
+    - The design should always keep users informed about what's going on, through appropriate feedback
+2. Take into account digital literacy
+    - Keep things in simple language
+    - Discourage damaging actions
+3. Render initial information ASAP
+4. Leverage Progressive Enhancement
+5. Avoid request chaining and roundtrips
+    - preload
+    - preconnecting
+6. Caching
+7. Test for back/forward cache
+8. Optimize images/videos you ship
+9. Lazy resources that aren't critical
+10. Learn about network client hints
+11. Limit third party resources
+12. Avoid creating too many layers
+13. Break up long tasks
