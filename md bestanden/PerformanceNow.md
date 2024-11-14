@@ -125,8 +125,62 @@ The `<head>` tag is the biggest render blocking element in HTML
 > Q: Do you have a recommendation on what metric to lower for companies? A: IT depends on their business motives, if it's e-commerce definetly get the LCP down on the important pages. 
 
 # Accessible is performant- Eric Bailey
+Performance: the manner in whih a mechanism behaves
 
+How do you describe an interface?
+- The accessibility tree: Running collection of objects that make up the UI. 
+    - Without this functioning you don't know what the interface is!
+    - How to build an accessibility tee:
+        - Name
+        - Role
+        - Properties
+        - Description
+Putting these together gives you an object, like a play button. 
 
+### How do you build these UI components?
+- OS alert dialog
+    - Menubar
+        - Title
+        - Close button
+    - body
+        - Title
+        - Text
+        - Save button
+        - Cancel button
+
+On the web: you render HTML, with it's appearance nad behavior augmented by CSS and JS. This makes the DOM tree, which browsers then read the DOM from and rendered AND THAT is what the user sees.
+
+Running in parallel is the Accessibility tree, This makes a sampled version of the DOM which then gets read by the screenreaders.
+
+The accessibility trees relies on the user being able to see and interact with the DOM tree.
+
+It's more of a accessibility forest than a tree, because there are multiple trees. Different companies update and create new technologies for it.
+
+The DOM can be a part of the accessibility tree, but it's more brittle than it.
+
+### How do we prevent these problems?
+- Write semantic HTML
+
+### Let's make the abstract immediate
+Material Design has trash HTML semantics, and overly long JS.
+
+An optimal DOM tree has less than 1500 nodes max depth of 32 nodes and something else, this dude talks faster than eminem during his fastest verses....
+
+A11Y is made specifically for accessibility and performance (they go hand in hand), as they had much, much less code than Material Design
+
+This guy flamed Facebook on their dogshit trash code damn.
+
+Screen readers: JAWS, NVDA, VoiceOver, Talkback
+
+### How to test
+- Start/Stop voice over
+- Navigate by interactive item
+- Did voice over crash? no? good, if it does simplify your experience (Clean your code and use semantics)
+
+Performance: Ability to perform
+
+Refer to WCAG 2.2 Understanding Docs. (I lost track)
+ 
 # Performance mistakes - Paul Calvano
 
 
