@@ -52,6 +52,7 @@ Looking at these 2 stats, you can see that there is still a huge chunk missing w
 
 # Site-Speed that sticks - Harry Roberts
 > He's talking about monkeys and bananas, is he calling us monkeys! (just kidding)
+> [His LinkedIn](https://www.linkedin.com/in/csswizardry/)
 
 Not all successfull project, stay successfull. It's usually because of a lack of confidence and such.
 
@@ -70,7 +71,7 @@ Not all successfull project, stay successfull. It's usually because of a lack of
     - Experiment with custom throttles, like 3G, LTE etc. So you get closer to a realistic user experience.
     - [coupon on csswizard](csswzz.it/perfnow25)
     - Slow down your backend, for local hosts
-    - If you know you got 800ms render blocking time, force it by delaying it with slowfil.es!
+    - If you know you got 800ms render blocking time, force it by delaying it with [slowfiles](https://slowfil.es/)!
     - Core web vitals are too big for local host
     - If you're working locally, measure locally!
     - You can test something 5 times, take the third result (ascending order) and thats your median for the result!
@@ -86,7 +87,7 @@ Not all successfull project, stay successfull. It's usually because of a lack of
     - Budgets versus Targets; budgets are your backstops, your targets are your ambitions!
     
 4. Monitoring
-    - the *m* in RUM stands for monitoring.
+    - the **M** in RUM stands for monitoring.
     - Don't use synthethic testing for monitoring!
     - If you run a synthetic test every day, you run a difference in TESTING (Like speedcurve updating their testing tool).
     - Again, you're monitoring variation in tests
