@@ -1,4 +1,5 @@
-# The web performance landscape in 2024 - Tammy Everts
+# Dag 1
+## The web performance landscape in 2024 - Tammy Everts
 Key note of the first day sort of, linkedin.com/in/Tammyeverts
 
 She wrote the book time is money, the business value of web performance, she also curates WPO stats
@@ -49,8 +50,7 @@ Looking at these 2 stats, you can see that there is still a huge chunk missing w
 > Ask yourself this: who am i building for, testing for, are my pages getting faster, am i doing the right optimizations and does it help my business?
 
 > As world best performance mom, she did not leave us on a high note...
-
-# Site-Speed that sticks - Harry Roberts
+## Site-Speed that sticks - Harry Roberts
 > He's talking about monkeys and bananas, is he calling us monkeys! (just kidding)
 > [His LinkedIn](https://www.linkedin.com/in/csswizardry/)
 
@@ -124,7 +124,9 @@ The `<head>` tag is the biggest render blocking element in HTML
 
 > Q: Do you have a recommendation on what metric to lower for companies? A: IT depends on their business motives, if it's e-commerce definetly get the LCP down on the important pages. 
 
-# Accessible is performant- Eric Bailey
+> --
+
+## Accessible is performant- Eric Bailey
 Performance: the manner in whih a mechanism behaves
 
 How do you describe an interface?
@@ -182,8 +184,7 @@ Performance: Ability to perform
 Refer to WCAG 2.2 Understanding Docs. (I lost track)
 
 > Q: What happens to the accessibility tree if the DOM gets loaded slower? A: It depends on the OS, device, browser etc. Most of the time it won't announce anything it will just create a buffer. So the response gets bufferd. 
-
-# Performance mistakes - Paul Calvano
+## Performance mistakes - Paul Calvano
 > This is one of the important talks for me as a student (stuff i can implement in my code), added later: Why this guy constantly out of breath tho... 
 All of the data in this talk is from [HTTPArchive](httparchive.org)
 
@@ -232,8 +233,9 @@ All of the data in this talk is from [HTTPArchive](httparchive.org)
 - validate it using RUM or A/B testing
 - Monitor it using RUM, performance budget and/or synthetic measurements
 
+> --
 
-# Thinking beyond core web vitals - Anna Migas
+## Thinking beyond core web vitals - Anna Migas
 Most web performance metrics and resources are developed for the privileged user in mind
 
 For some users, the good web performance is not achievable at all.
@@ -270,3 +272,28 @@ For some users, the good web performance is not achievable at all.
 11. Limit third party resources
 12. Avoid creating too many layers
 13. Break up long tasks
+
+> --
+# Dag 2
+## In the blink of an eye - Tim Kadlec
+
+
+## Devtools deep dive - Jack Franklin
+
+
+> --
+## Font performance strategies - Mandy Michael
+
+
+## INP case studies - Erwin Hofman & Karlijn Lowik
+
+
+> --
+## Bloomberg becomes browser - Jason Williams & Paul Williams
+
+
+## Unpacking bundling - Daniel Roe
+
+
+> --
+## Aiming for the stars - Annie Sullivan
