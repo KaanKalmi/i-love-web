@@ -150,7 +150,7 @@ Putting these together gives you an object, like a play button.
         - Save button
         - Cancel button
 
-On the web: you render HTML, with it's appearance nad behavior augmented by CSS and JS. This makes the DOM tree, which browsers then read the DOM from and rendered AND THAT is what the user sees.
+On the web: you render HTML, with it's appearance and behavior augmented by CSS and JS. This makes the DOM tree, which browsers then read the DOM from and rendered AND THAT is what the user sees.
 
 Running in parallel is the Accessibility tree, This makes a sampled version of the DOM which then gets read by the screenreaders.
 
@@ -365,17 +365,110 @@ You also see the render blocking requests and document request latency.
  
 > --
 ## Font performance strategies - Mandy Michael
+Fonts impact LCP and CLS quite more than we think.
 
+How to make your font performance the best? Don't use custom fonts, use system fonts. 
 
+- **Font hosting:** Are you using third parties (google fonts), or self hosted?
+About 70% of all websites use a self hosted font in some capacity, 28-34 for ONLY self hosting.
+
+Browsers no longer cache resources across top level sites though, so the move to self hosting fonts is becoming more popular.
+
+Because the browser no longer supports this third party hosted fonts are slightly impairing your performance (Google fonts deliver more performance tho if you preconnect it)
+
+Self hosting is better for privacy and performance, it is actually the way to go if you WANT to put in the time and resources for it.
+
+- **Reduce no of fonts:**  Make sure you ONLY load in the amount you need, don't load in like bold italic if you don't use it.
+You can also use a variable font, this eliminates the need for loading in multiple fonts. You can just change it with CSS and HTML.
+
+Single weight font (Source Sans Pro) is 107kb, combined is 214kb and variable is 166kb.
+
+Variable fonts is only 22% larger than single weight, while having the best of both worlds (combined and single)
+
+- **Reduce font file sizes:** WOFF2 is the best choice to reduce font file sizes, it's 15-20% smaller than WOFF itself, it's also supported everywhere, for older devices just use system fonts.
+
+If you use TTF files, just compress them so they're lighter, this way you'll be able to still get the reduced font file sizes like WOFF2 has
+
+She used variable fonts for fonts that she only used 1 weight of, she removed the variable font and put in a one weight only font and reduced her headline font file size by 91%, her body text was reduced by 5.7%
+
+Just doing these 2 changes, she reduced her page size by 48%!
+
+You can remove weight axis (if your license allows it), this way you can reduce the size of your fonts as well.
+
+Subset fonts (get permission to change them), should also be reduced in size with tools for performance improvement.
+
+[Incremental font transfer](https://www.w3.org/TR/IFT)
+
+- **Font display:** 
+    For font display
+    - **swap:** It renders invisible text for up to 3 seconds, only pick this if it's critical for your webpage, also causes Layout shift.
+    - **block:** the invisible text is now 100ms. Still meh
+    - **optional:** Good for LCP and no impact to CLS as there is no layout shift.
+
+> Instead of icon fonts, use inline svg!
+
+Switching her font display to optional she had no CLS, and a much lower LCP.
+
+The problem with swap, is that it causes layout shift caused by fonts.
+
+**How to manage layout shift that's caused by fonts?**
+
+You manage it with CSS< not with line height etc but with `size-adjust` and `font-size-adjust`.
+
+- **Size-adjust:** It aims to change the x-height (typical height of the lowercase letterss, similar to x but not always the case). You add this to your `@font-face` selector.
+- **Font-size-adjust:** Adjusts the font size to keep the aspect value across fonts consistent, so what it does is it tries to render the fallback at an aligned rate (arial 20px, inter 16px.) How do you figure out the aspect ratio? Tools online like [clagnut](https://clagnut.com/sandbox/font-size-adjust-ex.html)!
+
+`font-size-adjust` just goes in the CSS selector where you use the font, like `h1` or `p`
+
+Be careful with relative units, like ch etc. This still causes layout shifts!
+
+- **Font loading:** Cache your fonts, by using `Cache-control`, Fonts  are only downloaded if it's referenced by styling on the page `@font-face`. 
+
+A simple solution is just including the font-face and family as inline CSS, You also wanna prioritize the most important one first.
+
+You can also use resource hints to decrease page loading times.
+
+Preconnect and dns-prefetch speed up loading times as well.
+
+Preloading comes with a small problem, it takes away from the loading speed resources you wanna load earlier.
+
+`<link rel="preload" as="font" type="font/woff2" crossorigin />`
+
+Don't preload and preconnect all your fonts/assets, consider what's most important and make sure you test.
+
+> We subset all the fonts in 3 main languages, this way we reduce the font file size, while also giving the clients the ability to have a slightly faster site in 3 languages.
 ## INP case studies - Erwin Hofman & Karlijn Lowik
+INP measures interactivity in other words INPcrease user happiness
 
+FID got replaced by INP
+
+More than 25% of INPs happen after 20s
+
+89% of INPs happens when JS and CSS and images are presented
+
+INP= Interaction to Next Paint
+
+There is a 23% gap between mobile and desktop.
+
+INP + LoAF = better third-party insights
+
+INP is not just 1 thing, it's multiple small things bundling up.
+
+Remove everything you don't need in your projects, as it increased INP time, which is bad!
+
+- use RUM tool
+- Know your audience and restraint
+- Keep challenging marketig and user behaviour tags
+- INP is valuable
+- third party benchmarking data
 
 > --
 ## Bloomberg becomes browser - Jason Williams & Paul Williams
-
+> Chose not to note this down, as it's not really important in terms of what i wanna learn from here
 
 ## Unpacking bundling - Daniel Roe
-
+> Didn't ntoe this down, I was getting a headache lol
 
 > --
 ## Aiming for the stars - Annie Sullivan
+> She just be ramblin ab the goal of lighthouse stuff n shi i'm tired
