@@ -276,11 +276,93 @@ For some users, the good web performance is not achievable at all.
 > --
 # Dag 2
 ## In the blink of an eye - Tim Kadlec
+100ms faster = approx. +1% increase in profit, revenue, user satisfaction, traffic etc.
 
+100ms is perceived as immediate//instant, note: this might be still too slow for experienced users.
+
+Expectations aren't constant, they change throughout time as we get more experienced in technology and interfaces. Which in turn makes our expectations higher.
+
+- **Jevons Paradox:** the more we have of the resource, the more we consume.
+> Some dumbass said 3G users don't buy anything, so performance is useless???
+
+- **Hedonistic Treadmill:** As resources become more powerful, our expectations increase, deminishing our satisfaction.
+> Example: The more you drink red wine it tastes amazing, but after a while of drinking it constantly you dont really feel the same way anymore.
+
+Expectations are learned through experience, so the more it develops and gets faster, the more we expect it to be that fast and immediate. 
+> Example: Let's say you're living in a 5G area, the web is always fast. You then visit a country in 3G where everything loads slower. This makes you think the web is slow, while the people in the 3G area dont think it's slow.
+
+Opportunity to change this: Core web vitals (LCP INP CLS) which give us a more concentrated insight on performance.
+
+Core web vitals are seen as checklists for most people, but they are a better starting point rather than a finish line.
+
+> Innovation comes from a collision of ideas, not from individuals. 
+
+A return of the browser, we're seeing a bunch of new technology come forward which sets our expectations higher by doing so many new and good things (like boosted performance).
+
+> Speculationrules in your script (as a type attribute) preloads your link when an user hovers over a link
+
+`@view-transition { "navigation": "auto" }` is enough for most people
+
+Betting on the browser is our best chance at long-term success, because at the end of the day you can not beat the browser, we rely on solving the performance issues by using the browsers etc.
+
+Good performane requires a ruthless obsession for the UX, You need to focus on the people that need the faster performant websites (3G users) while also helping the people with rising expectations!
 
 ## Devtools deep dive - Jack Franklin
+- **Spotting issues sooner:** They change the landing page for [web.dev](https://web.dev/) (performance tab), so now you don't have to record your page.
+You can use local host and get data from the live URL now as well, They have a video on youtube 
 
+- **Understanding the network:** They upgraded the tooltip, so now you see a lot more information in the network section. They are also having highlights on certain items where changes are happening and such.
+You'll also see a better summary and initiating arrows. This helps you see the critical path of resources.
 
+You can now use ctrl + f to search within the devtools!
+
+You can block network requests as well (isn't new), this way u can check the impact of requests from resources.
+
+These updates are from update 128
+
+- **Focusing on what's importatn:** You now have breadcrumbs on the top of the page, this makes you able to select a time frame to focus on. (You can nest these)
+You can also now annotate events on your page, and add labels to them. 
+
+You can double click on items and drag an arrow from event to event.
+
+Last of all, you can highlight timelines now as well, and use the annotations as bookmarks (and use the delete button to delete the notes).
+
+These are also saved so if you send the link to someone they'll see your notes as well, by exporting and saving traces.
+
+- **Dealing with large flamecharts:** You can now click and hide childeren of items (shortcut: C), you can also hide repeating childeren.
+
+These are also send these to others by saving and exporting!
+
+You can now rightclick on an item in the flamechart to add to ignore list. All of these small QoL changes reduce a lot of noise for your flamechart.
+
+- **Extensibility:** You can create custom tracks with their own label and custom data. 
+
+This helps you make your flamechart etc more descriptive.
+
+- **AI** this is coming soon, it's probably gonan be useless
+
+- [CRBug](crbug.com) Here you can check some stuff i missed some stuff
+
+- **Insights:** They removed performance insights tab, but the things that were good there are now in the performance tab.
+
+- **CLS:** are now represented by a diamond shaped figure in the timeline, the bigger the diamond the more CLS happens, you can click on it and see what causes the layout shift and other data.
+
+You can now hover over the diamond as well to see what exactly happened!
+
+You can see some more insights when recording your page, so when you see your score in the insights panel, you can click on the summary blocks to see it in more detail.
+
+- **LCP:** Now also shows in the timeline, requests etc. They also give insights about stuff like 'oh you didn't lazyload this which would help your LCP go down' etc.
+
+You also see the render blocking requests and document request latency.
+
+- **Third parties:** They are helping developers understand the impact of third parties, so when yuo hover over the third parties inside the insights tab they highlight it on the timeline chart.
+
+- **Selector stats:** You can see the css selectors and what they are doing that are impacting you (not turned on by default)
+
+- **INP:** Same thing as LCP and CLS, But when you're viewing on a mobile viewport it tells you if it's optimzed or not.
+
+- [Feedback given through here](crbug.com/new)
+ 
 > --
 ## Font performance strategies - Mandy Michael
 
