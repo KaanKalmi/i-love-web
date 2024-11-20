@@ -228,7 +228,7 @@ All of the data in this talk is from [HTTPArchive](httparchive.org)
     - sites load images from S3 instead of a CDN (doesn't optimize your images)
 16. Gzip compressing images
 
-- Create a hypothesis "This feature will imrpove [metric]"
+- Create a hypothesis "This feature will improve [metric]"
 - Test the feature in dev tools or something
 - validate it using RUM or A/B testing
 - Monitor it using RUM, performance budget and/or synthetic measurements

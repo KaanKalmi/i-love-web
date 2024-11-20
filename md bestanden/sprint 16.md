@@ -87,3 +87,15 @@ Atomic design is  een methode om design systems te creëren.
 Terwijl je aan het werk bent, probeer svelte 5 features toe te passen (als je de tijd voor hebt, moet niet)
 Kijk goed naar de documentatie van Svelte.
 
+## The new reponsive
+- [Media query types MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
+### User queries
+- Prefers-color-scheme
+- Reduced motion queries
+
+### Container queries
+- [Container Queries MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+
+### Form-factor
+- Form-factor query
