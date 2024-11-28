@@ -33,7 +33,8 @@
 - [SvelteKit Blog - Unlocking view transitions](https://svelte.dev/blog/view-transitions)
 - [SvelteKit Docs - How to use view transition API in sveltekit](https://kit.svelte.dev/docs/faq#how-do-i-use-the-view-transitions-api-with-sveltekit)
 - [SvelteKit Docs - Logic Blocks](https://svelte.dev/docs/logic-blocks)
-- [Light- en Dark mode - CSSTricjs](https://css-tricks.com/come-to-the-light-dark-side/)
+- [Light- en Dark mode - CSSTricks](https://css-tricks.com/come-to-the-light-dark-side/)
+- [How to hack google lighthouse scores - Smashing magazine](https://www.smashingmagazine.com/2024/06/how-hack-google-lighthouse-scores-2024/)
 
 ## Video's die ik heb gekeken:
 - [Fireship - Sveltekit in 100 seconds](https://www.youtube.com/watch?v=H1eEFfAkIik)
